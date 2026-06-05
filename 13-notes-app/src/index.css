@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+*{
+  margin:0 ;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+  height:100% ;
+  width: 100%;
+}
+
+/* 
+.main-div{
+  padding: 7%;
+} */
+
+form{ 
+  /* padding-top: 50px; */
+  /* padding-right: 7%;
+   */
+  padding-left: 4%;
+  padding-top:5% ;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  
+
+   /* padding: 5%; */
+}
+
+input{
+  /* margin-top: 10px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+button{
+ 
+   /* margin-top: 10px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* img{
+  margin-right:30px ;
+} */
+
+
+.card-div {
+ padding-left: 5%;
+ /* padding-top: ; */
+ 
+  padding-top:5% ;
+  padding-bottom: 2%;
+ 
+}
+
+
+
+
+.container{
+  margin-top: 15px;
+}
+
+.e-heading{
+  padding-left: 10px;
+}
+.e-details{
+  /* border: 2px; */
+  padding-left: 10px;
+}
+
+/* .heading{
+  margin-top: 25px;
+} */
+
+.cards{
+  padding: 15px;
+}
+
+.cross{
+  top: 10px;
+  right: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+
+.heading{
+  margin-top: 5px;
+  /* height: 50px; */
+  height: fit-content;
+  margin-bottom: 5px;
+}
+
+.c-para{
+  margin-top: 10px;
+  /* height: 75px; */
+  height:  fit-content;
+  max-height: 100px ;
+  line-clamp:hidden ;
+}

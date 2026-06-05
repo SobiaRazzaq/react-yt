@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+button {
+  height: 50px;
+  width: 90px;
+  
+  background-color: blueviolet;
+  /* margin: 50px; */
+  border: 2px solid transparent;
+  border-radius: 12px;
+  color: white;
+}
+
+.counter{
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+
+  /* width: fit-content;
+  padding: 10px 70px; */
+  font-size: 50px;
+  padding-top: 6px;
+  border-radius: 5px;
+  color: white;
+  /* margin: 50px; */
+  background-color: rgb(248, 120, 0);
+}
+
+.btndiv {
+  height: 200px;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  /* margin-bottom: 90px; */
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px */
+}
+
+.counterdiv {
+  margin: 100px;
+  border-radius: 40px;
+  height: 300px;
+  width: 250px;
+  padding: 30px;
+  /* display: run-in; */
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  background-color: rgb(33, 29, 29);
+  padding-bottom: 50px;
+}
