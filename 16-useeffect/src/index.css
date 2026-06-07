@@ -1,0 +1,6 @@
+
+button{
+  /* first value is for top/bottom and second value is for left/right */
+  padding: 10px 30px;     
+  margin: 10px;
+}
