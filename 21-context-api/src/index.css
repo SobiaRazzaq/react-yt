@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.logo{
+  font-family: Papyrus, fantasy;
+}
+
+/* .nav2{
+  color: white;
+  background-color: black;
+} */
+
+.light{
+    display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 14px 20px;
+  /* background-color: seagreen; */
+   background-color:teal;
+}
+
+.dark{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color:rebeccapurple;
+}
+
+
+
